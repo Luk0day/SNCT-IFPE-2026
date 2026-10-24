@@ -1,0 +1,12 @@
+{
+  "name": "snct-ciencia-delas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": { "nuxt": "^3.17.0", "vue": "latest" },
+  "devDependencies": { "@nuxtjs/tailwindcss": "^6.13.0", "@vite-pwa/nuxt": "^0.10.6" }
+}

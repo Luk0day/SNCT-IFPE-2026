@@ -1,0 +1,32 @@
+{
+  "evento": { "inicio": "2026-11-17T08:00:00-03:00", "dias": { "1": "2026-11-17", "2": "2026-11-18" } },
+  "locais": {
+    "aud": { "nome": "Auditório Central Jorge Amado", "info": "Bloco A · 280 lugares · Libras e rampa de acesso", "x": 40, "y": 30, "w": 200, "h": 90 },
+    "blB": { "nome": "Bloco B · Laboratórios de Informática", "info": "Labs 01 a 04 · Elevador e bancadas acessíveis", "x": 270, "y": 30, "w": 190, "h": 90 },
+    "pat": { "nome": "Pátio Central Coberto", "info": "Mostra de projetos e estandes · Térreo, sem degraus", "x": 140, "y": 150, "w": 240, "h": 90 },
+    "blC": { "nome": "Bloco C · Ciências", "info": "Química, Biologia e Física · Piso antiderrapante", "x": 40, "y": 270, "w": 200, "h": 80 },
+    "ali": { "nome": "Alimentação e convivência", "info": "Cantina, mesas adaptadas, bebedouros e banheiros acessíveis", "x": 270, "y": 270, "w": 190, "h": 80 },
+    "por": { "nome": "Portaria e credenciamento", "info": "Entrada principal · Atendimento em Libras e apoio PCD", "x": 40, "y": 150, "w": 80, "h": 90 }
+  },
+  "atividades": [
+    { "id": 1, "dia": 1, "inicio": "08:30", "fim": "10:00", "tipo": "palestra", "titulo": "Mulheres que Transformam a Ciência Brasileira", "quem": "Dra. Beatriz Alencar · UFPE", "local": "aud", "vagas": "Vagas abertas" },
+    { "id": 2, "dia": 1, "inicio": "10:30", "fim": "12:00", "tipo": "oficina", "titulo": "Introdução ao Desenvolvimento Web Acessível para Meninas", "quem": "Profa. Mariana Souza · IFPE", "local": "blB", "vagas": "Últimas vagas" },
+    { "id": 3, "dia": 1, "inicio": "10:30", "fim": "11:45", "tipo": "oficina", "titulo": "Meninas na Robótica: Protótipos com Arduino", "quem": "Equipe de robótica do IFPE Palmares", "local": "blB", "vagas": "Vagas abertas" },
+    { "id": 4, "dia": 1, "inicio": "11:00", "fim": "13:00", "tipo": "mostra", "titulo": "Exposição de Pôsteres: PIBIC e Mulheres no Semiárido", "quem": "Alunas bolsistas", "local": "pat", "vagas": "Acesso livre" },
+    { "id": 5, "dia": 1, "inicio": "14:00", "fim": "16:00", "tipo": "workshop", "titulo": "Química Verde e Produção de Bioplásticos", "quem": "Dra. Lívia Carneiro · UPE/IFPE", "local": "blC", "vagas": "20 vagas · requer EPI" },
+    { "id": 6, "dia": 2, "inicio": "09:00", "fim": "11:30", "tipo": "mesa", "titulo": "Carreiras STEM para Garotas: da Escola Técnica à Liderança", "quem": "Egressas do IFPE e pesquisadoras", "local": "aud", "vagas": "Acesso livre" },
+    { "id": 7, "dia": 2, "inicio": "09:00", "fim": "13:00", "tipo": "mostra", "titulo": "Mostra Científica Jovem das Escolas da Mata Sul", "quem": "Estudantes de Palmares, Catende e Água Preta", "local": "pat", "vagas": "Acesso livre" },
+    { "id": 8, "dia": 2, "inicio": "14:30", "fim": "17:00", "tipo": "mostra", "titulo": "Feira de Robótica Sustentável e Sensores Agrícolas", "quem": "Protótipos de alunas da Mata Sul", "local": "pat", "vagas": "Acesso livre" }
+  ],
+  "avisos": [
+    { "titulo": "Bem-vinda e bem-vindo!", "texto": "Credenciamento a partir das 07h30 na portaria. Leve um documento com foto." },
+    { "titulo": "Acessibilidade", "texto": "Intérpretes de Libras nas palestras e mesas. Peça apoio na portaria." },
+    { "titulo": "Escolas e caravanas", "texto": "Ônibus escolares desembarcam pelo Portão B. Avise a organização antes." }
+  ],
+  "faq": [
+    { "p": "O evento é gratuito?", "r": "Sim. Todas as atividades são abertas e gratuitas." },
+    { "p": "Recebo certificado?", "r": "Inscrição, presença e certificados ficam no Even. O site leva você até lá." },
+    { "p": "Posso levar minha turma?", "r": "Sim. Há monitores para receber escolas. Fale com a organização antes da visita." },
+    { "p": "O site funciona sem internet?", "r": "Depois do primeiro acesso, programação e agenda continuam abrindo mesmo com sinal fraco." }
+  ]
+}
